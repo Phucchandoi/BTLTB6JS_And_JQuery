@@ -1,0 +1,1 @@
+$(function(){var e="";$(".keys button").click(function(){var v=$(this).text();if(v==="C")e="";else if(v==="="){var m=e.match(/^(-?\d+(?:\.\d+)?)([+\-*/])(-?\d+(?:\.\d+)?)$/);if(!m)return $("#display").val("Không hợp lệ");var a=+m[1],b=+m[3],r=m[2]==="+"?a+b:m[2]==="-"?a-b:m[2]==="*"?a*b:b===0?"Không thể chia cho 0":a/b;e=String(r)}else e+=v;$("#display").val(e)})})

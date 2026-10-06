@@ -1,0 +1,1 @@
+$(function(){$("#form1").submit(function(e){e.preventDefault();$("#result").text("Họ và tên: "+$("[name=fname]").val()+" "+$("[name=lname]").val())})})

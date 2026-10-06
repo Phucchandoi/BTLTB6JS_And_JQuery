@@ -1,0 +1,1 @@
+$(function(){$("#jsstyle").click(function(){$("#text").css({"font-size":"30px","font-family":"Arial","color":"blue"})})})

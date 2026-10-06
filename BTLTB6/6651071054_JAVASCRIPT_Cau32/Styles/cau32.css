@@ -1,0 +1,14 @@
+body {
+    margin-top: 30px;
+    font-family: Arial;
+    text-align: center;
+}
+
+button {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+}
+
+#imageContainer img {
+    object-fit: contain;
+}

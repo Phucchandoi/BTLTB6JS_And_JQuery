@@ -1,0 +1,1 @@
+$(function(){$("#count").click(function(){var s="Số mục: "+$("#mySelect option").length+"\n";$("#mySelect option").each(function(i){s+=(i+1)+". "+$(this).text()+"\n"});alert(s)})})

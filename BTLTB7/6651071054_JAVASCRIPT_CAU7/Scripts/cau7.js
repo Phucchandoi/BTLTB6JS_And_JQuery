@@ -1,0 +1,1 @@
+$(function(){$("#linkForm").submit(function(e){e.preventDefault();var u=$("#linkInput").val().trim();if(!u)return alert("Vui lòng nhập đường link");if(!/^https?:\/\//i.test(u))u="https://"+u;if(confirm("Bạn có muốn chuyển đến "+u+" không?"))location.href=u})})

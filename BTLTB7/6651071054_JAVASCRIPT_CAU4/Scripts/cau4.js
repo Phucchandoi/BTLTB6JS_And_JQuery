@@ -1,0 +1,1 @@
+$(function(){$("#remove").click(function(){$("#colorSelect option:selected").remove()})})
